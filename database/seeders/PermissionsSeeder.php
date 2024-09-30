@@ -14,12 +14,8 @@ class PermissionsSeeder extends Seeder
      */
     public function run(): void
     {
-        //app()[PermissionRegistrar::class]->forgetCachedPermissions();
-        //roles (Owner, Admin, Pay roll Officer, employee)
+        // app()[PermissionRegistrar::class]->forgetCachedPermissions();
 
-
-        //update this 
-        //create permissions
         Permission::create(['name' => 'add companies']); 
         Permission::create(['name' => 'edit companies']);
         Permission::create(['name' => 'add administrators']);
